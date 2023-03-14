@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="systematico">
+    <link rel="stylesheet" href="CSS/styleficha.css">
+    <title>FICHA</title>
+
+</head>
+<center>
+
+    <body>
+        <!-- nao pode mecher nisso -->
+        <div class="topo">
+
+        </div>
+        <!-- nao pode mecher nisso -->
+        <div>
+            <nav class="menu">
+                <ul>
+                    <li> <a href="index.html" class="borda">Home</a> </li>
+                    <li> <a href="ficha.html">ficha</a></li>
+                    <li class="btn1">
+                        <a href="" class="btnsub">Raças</a>
+                        <div class="conteudosub">
+                            <a href="racas/anao.html">anao</a>
+                            <a href="racas/elfo.html">elfo</a>
+                            <a href="racas/humano.html">humano</a>
+                            <a href="racas/pequenino.html">pequenino</a>
+                            <a href="racas/draconato.html">draconato</a>
+                            <a href="racas/gnomo.html">gnomo</a>
+                            <a href="racas/meioelfo.html">meio-elfo</a>
+                            <a href="racas/meioorc.html">meio-orc</a>
+                            <a href="racas/thiefeling.html">thiefeling</a>
+                        </div>
+                    </li>
+                    <li class="btn2">
+                        <a href="" class="btnclass">Classe</a>
+                        <div class="conteudobtnclass">
+                            <a href="">barbaro</a>
+                            <a href="">bardo</a>
+                            <a href="">bruxo</a>
+                            <a href="">clerigo</a>
+                            <a href="">druida</a>
+                            <a href="">feiticeiro</a>
+                            <a href="">patrulheiro</a>
+                            <a href="">guerreiro</a>
+                            <a href="">ladino</a>
+                            <a href="">mago</a>
+                            <a href="">monge</a>
+                            <a href="">paladino</a>
+                        </div>
+                    </li>
+                    <li class="btn3">
+                        <a href="" class="btnmat">Materiais</a>
+                        <div class="contbtnmat">
+                            <a href="">Antecedentes</a>
+                            <a href="">Tendencias</a>
+
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="meio">
+            <!-- conteudo inicial da pagina -->
+            <header class="conteudo">
+                <h1>Descreva como quer o seu personagem do jogo</h1>
+                <form action="">
+                    <!-- FORMULARIO 1 DA ESQUERDA -->
+                    <div class="formulario">
+                        <div class="nome">
+
+                            <P><label for="nome"> NOME:</label></P>
+                            <br>
+                            <br>
+                            <input required class="tamanho" type="text" id="nome" placeholder="Nome do Personagem">
+                        </div>
+                        <div class="sexo">
+                            <p>SEXO:</p>
+                            <br>
+                            <br>
+                            <input required type="radio" name="sexo" id="masculino" value="masculino">
+                            <label for="masculino">Masculino</label>
+                            <input type="radio" name="sexo" id="feminino" value="feminino">
+                            <label for="feminino">feminino</label>
+                        </div>
+
+                        <div class="racas">
+                            <label for="selecao">
+                                <P>Raças</P>
+                                <br>
+                                <br>
+                            </label>
+
+                            <select class="tamanho" name="racas" id="selecao" required>
+                                <option value="" disabled selected> Selecione</option>
+                                <option value="Anão">Anão</option>
+                                <option value="Elfo">Elfo</option>
+                                <option value="Humano">Humano</option>
+                                <option value="Peuqenino">Pequenino</option>
+                                <option value="Draconato">Draconato</option>
+                                <option value="Gnomo">Gnomo</option>
+                                <option value="Meio-elfo">Meio-Elfo</option>
+                                <option value="Meio-orc">Meio-Orc</option>
+                                <option value="Tiefeling">Tiefeling</option>
+                            </select>
+                        </div>
+                        <div class="classes">
+                            <label for="selecao2">
+                                <P>Classes</P>
+                                <br>
+                                <br>
+                            </label>
+
+                            <select class="tamanho" name="classes" id="selecao2" required>
+                                <option value="" disabled selected>Selecione</option>
+                                <option value="Barbaro">Barbaro</option>
+                                <option value="Bardo">Bardo</option>
+                                <option value="bruxo">bruxo</option>
+                                <option value="clerigo">clerigo</option>
+                                <option value="druida">druida</option>
+                                <option value="feiticeiro">feiticeiro</option>
+                                <option value="patrulheiro">patrulheiro</option>
+                                <option value="guerreiro">guerreiro</option>
+                                <option value="ladino">ladino</option>
+                                <option value="mago">mago</option>
+                                <option value="monge">monge</option>
+                                <option value="paladino">paladino</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <div class="racas">
+                                <label for="selecao3">
+                                    <P>Antecedentes</P>
+                                    <br>
+                                    <br>
+                                </label>
+
+                                <select class="tamanho" name="racas" id="selecao3" required>
+                                    <option value="" disabled selected> Selecione</option>
+                                    <option value="Anão">Acolito</option>
+                                    <option value="Elfo">atesão</option>
+                                    <option value="Humano">charlatao</option>
+                                    <option value="Peuqenino">criminoso</option>
+                                    <option value="Draconato">cultista</option>
+                                    <option value="Gnomo">animador</option>
+                                    <option value="Meio-elfo">fazendeiro</option>
+                                    <option value="Meio-orc">gladiador</option>
+                                    <option value="Tiefeling">guarda</option>
+                                    <option value="Tiefeling">guia</option>
+                                    <option value="Tiefeling">hermitao</option>
+                                    <option value="Tiefeling">trabalhador</option>
+                                    <option value="Tiefeling">nobre</option>
+                                    <option value="Tiefeling">peregrino</option>
+                                    <option value="Tiefeling">sabio</option>
+                                    <option value="Tiefeling">marinheiro</option>
+                                    <option value="Tiefeling">soldado</option>
+                                    <option value="Tiefeling">ouriço</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+
+
+                    </div>
+                    <!-- FORMULARIO 2 DA DIREITA -->
+                    <div class="formulario2">
+                        <div class="nome">
+
+                            <P><label for="tendencia"> TENDENCIAS:</label></P>
+                            <br>
+                            <br>
+                            <SELEct class="tamanho" id="tendencia">
+                                <option value="#" disabled selected>Selecione</option>
+                                <option value="">Ordeiro e Bom</option>
+                                <option value="">neutro e bom</option>
+                                <option value="">caotico e bom</option>
+                                <option value="">ordeiro e neutrio</option>
+                                <option value="">neuto</option>
+                                <option value="">caotico e neutro</option>
+                                <option value="">ordeiro e mau</option>
+                                <option value="">neutro e mau</option>
+                                <option value="">caotico e mau</option>
+                            </SELEct>
+                        </div>
+                        <div class="hab">
+                            <p>Habilidades:</p>
+                            <br>
+                            <br>
+                            <label for="for">For</label>
+                            <input class="for" type="number" id="For" min="8" max="18" required>
+
+                            <label for="dex">dex</label>
+                            <input class="dex" type="number" id="dex" min="8" max="18" required>
+                            <br>
+                            <label for="con">con</label>
+                            <input class="con" type="number" id="con" min="8" max="18" required>
+
+                            <label for="int">int</label>
+                            <input class="int" type="number" id="int" min="8" max="18" required>
+                            <br>
+                            <label for="sab">sab</label>
+                            <input class="sab" type="number" id="sab" min="8" max="18" required>
+
+                            <label for="car">car</label>
+                            <input class="car" type="number" id="dex" min="8" max="18" required>
+                        </div>
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br><br>
+
+
+                    </div>
+                    <div>
+
+                        <button type="submit" class="finalizar">Criar Ficha</button>
+
+                        <button type="reset" class="finalizar2">Limpar</button>
+
+                    </div>
+                </form>
+            </header>
+
+            <footer class="rodape">
+                <div class="dados">
+                    <div class="d4">
+                        <img src="IMG/d4.png" width="40px" height="40px" alt="">
+                    </div>
+                    <div class="d6">
+                        <img src="IMG/d6.png" width="40px" height="40px" alt="">
+                    </div>
+                    <div class="d8">
+                        <img src="IMG/d8.png" width="40px" height="40px" alt="">
+                    </div>
+                    <div class="d10">
+                        <img src="IMG/d10.png" width="40px" height="40px" alt="">
+                    </div>
+                    <div class="d12">
+                        <img src="IMG/d12.png" width="40px" height="40px" alt="">
+                    </div>
+                    <div class="d20">
+                        <img src="IMG/d20.png" width="40px" height="40px" alt="">
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</center>
+
+</html>
